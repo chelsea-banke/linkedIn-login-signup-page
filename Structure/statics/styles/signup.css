@@ -1,0 +1,120 @@
+body {
+    background-color: rgb(240, 236, 230);
+    font-family: sans-serif;
+}
+body #bHelp {
+    text-align: center;
+    font-size: smaller;
+}
+header {
+    text-align: center;
+}
+header h1 {
+    margin-left: -50px;
+    color: rgb(14, 114, 172);
+}
+header h1 img {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-top: -10px;
+}
+header p {
+    font-size: 30px;
+}
+#container {
+    display: flex;
+    justify-content: center;
+}
+#signup {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+#signup p {
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+#signup input {
+    width: 325px;
+    height: 20px;
+}
+#signup #conditions {
+    text-align: center;
+    font-size: smaller;
+}
+#signup #conditions a {
+    text-decoration: none;
+    color: rgb(14, 114, 172);
+}
+#signup #aJoin {
+    text-align: center;
+}
+#signup #aJoin button {
+    padding: 12px;
+    padding-left: 125px;
+    padding-right: 125px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(14, 114, 172);
+    border: 0px;
+    font-weight: bold;
+}
+#signup #gJoin button {
+    padding: 7px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 20px;
+    margin-top: -8px;
+    color: rgb(14, 114, 172);
+    background-color: white;
+    border: 1px solid rgb(14, 114, 172);
+    font-weight: bold;
+}
+hr {
+    display: inline-block;
+    width: 155px;
+}
+#signup #gJoin button img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: -5px;
+}
+#signup #sign {
+    text-align: center;
+}
+#signup #sign a {
+    text-decoration: none;
+    color: rgb(14, 114, 172);
+    font-weight: bold;
+}
+footer {
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    top: 575px;
+    padding-bottom: 0px;
+    width: 99%;
+}
+footer ul a {
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+footer ul a li{
+    display: inline;
+    color: black;
+    font-size: 11px;
+}
+footer ul a:hover li{
+    text-decoration: underline;
+}
+footer ul a li img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: -5px;
+}

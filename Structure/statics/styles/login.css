@@ -1,16 +1,8 @@
 body {
-    background-color: rgb(240, 236, 230);
+    /* background-color: rgb(240, 236, 230); */
     font-family: sans-serif;
 }
-body #bHelp {
-    text-align: center;
-    font-size: smaller;
-}
-header {
-    text-align: center;
-}
 header h1 {
-    margin-left: -50px;
     color: rgb(14, 114, 172);
 }
 header h1 img {
@@ -19,79 +11,78 @@ header h1 img {
     width: 50px;
     margin-top: -10px;
 }
-header p {
-    font-size: 30px;
-}
 #container {
     display: flex;
     justify-content: center;
 }
-#login {
+#signin {
     background-color: white;
-    padding-left: 15px;
-    padding-right: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
     border-radius: 5px;
-    padding-bottom: 20px;
-    padding-top: 5px;
 }
-#login p {
-    font-size: 15px;
-    margin-bottom: 2px;
+#signin p {
+    font-size: small;
+    margin-top: -20px;
 }
-#login input {
-    width: 325px;
-    height: 20px;
+#signin input {
+    width: 275px;
+    height: 40px;
 }
-#login #conditions {
-    text-align: center;
-    font-size: smaller;
-}
-#login #conditions a {
+#signin p a {
     text-decoration: none;
     color: rgb(14, 114, 172);
+    font-weight: bold;
 }
-#login #aJoin {
-    text-align: center;
-}
-#login #aJoin button {
+#signin #aJoin button {
     padding: 12px;
-    padding-left: 125px;
-    padding-right: 125px;
+    padding-left: 120px;
+    padding-right: 120px;
     border-radius: 20px;
     color: white;
     background-color: rgb(14, 114, 172);
     border: 0px;
     font-weight: bold;
+    margin-top: 20px;
 }
-#login #gJoin button {
+#signin #gJoin button {
     padding: 7px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 73px;
+    padding-right: 73px;
     border-radius: 20px;
     margin-top: -8px;
     color: rgb(14, 114, 172);
     background-color: white;
     border: 1px solid rgb(14, 114, 172);
     font-weight: bold;
+    margin-top: 28px;
+}
+#or {
+    margin-top: -10px;
 }
 hr {
     display: inline-block;
-    width: 155px;
+    width: 125px;
 }
-#login #gJoin button img {
+#signin #gJoin button img {
     width: 20px;
     height: 20px;
     margin-bottom: -5px;
 }
-#login #sign {
+#join {
     text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
 }
-#login #sign a {
+#join a {
     text-decoration: none;
     color: rgb(14, 114, 172);
     font-weight: bold;
 }
 footer {
+    border-top: 1px solid black;
     position: absolute;
     text-align: center;
     background-color: white;
@@ -108,6 +99,9 @@ footer ul a li{
     display: inline;
     color: black;
     font-size: 11px;
+}
+footer ul a:hover li{
+    text-decoration: underline;
 }
 footer ul a li img {
     width: 20px;
