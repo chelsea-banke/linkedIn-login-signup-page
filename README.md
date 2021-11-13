@@ -1,2 +1,2 @@
-# linkedIn-login-pagre
-designing a linkedIn login page
+# linkedIn-login-signup-page
+designing a linkedIn login and signup pages using only html and css
