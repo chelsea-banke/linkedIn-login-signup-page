@@ -82,13 +82,12 @@ hr {
     font-weight: bold;
 }
 footer {
-    border-top: 1px solid black;
     position: absolute;
     text-align: center;
     background-color: white;
     top: 575px;
-    padding-bottom: 0px;
     width: 99%;
+    margin-left: -10px;
 }
 footer ul a {
     text-decoration: none;
@@ -107,4 +106,16 @@ footer ul a li img {
     width: 20px;
     height: 20px;
     margin-bottom: -5px;
+}
+@media only screen and (max-width: 338px){
+    #signin #aJoin button {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 12px;
+    }
+    #signin #gJoin button {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        font-size: 12px;
+    }
 }

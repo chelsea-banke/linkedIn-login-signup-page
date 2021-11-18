@@ -1,6 +1,7 @@
 body {
-    background-color: rgb(240, 236, 230);
+    /* background-color: rgb(240, 236, 230); */
     font-family: sans-serif;
+    
 }
 body #bHelp {
     text-align: center;
@@ -56,8 +57,7 @@ header p {
 }
 #signup #aJoin button {
     padding: 12px;
-    padding-left: 125px;
-    padding-right: 125px;
+    width: 100%;
     border-radius: 20px;
     color: white;
     background-color: rgb(14, 114, 172);
@@ -68,6 +68,7 @@ header p {
     padding: 7px;
     padding-left: 100px;
     padding-right: 100px;
+    width: 100%;
     border-radius: 20px;
     margin-top: -8px;
     color: rgb(14, 114, 172);
@@ -96,9 +97,10 @@ footer {
     position: absolute;
     text-align: center;
     background-color: white;
-    top: 575px;
-    padding-bottom: 0px;
     width: 99%;
+    top: 575px;
+    padding-bottom: 10px;
+    margin-bottom: -10px;
 }
 footer ul a {
     text-decoration: none;
@@ -117,4 +119,38 @@ footer ul a li img {
     width: 20px;
     height: 20px;
     margin-bottom: -5px;
+}
+@media only screen and (max-width: 382px){
+    hr {
+        width: 150px;
+    }
+    footer {
+        position: relative;
+        top: 0px;
+        width: 100%;
+        margin-left: -10px;
+    }
+}
+@media only screen and (max-width: 334px){
+    #signup input {
+        width: 300px;
+    }
+    #signup #aJoin button {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 11px;
+    }
+    #signup #gJoin button {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 332px){
+    hr {
+        width: 130px;
+    }
+    #signup input {
+        width: 290px;
+    }
 }
